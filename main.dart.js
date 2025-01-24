@@ -41071,13 +41071,14 @@ Dg:function Dg(a,b){this.c=a
 this.a=b},
 aFT:function aFT(){},
 aFS:function aFS(){},
-bfA(a,b,c){return new A.ZK(b,a,c,null)},
+bfA(a,b,c,d){return new A.ZK(b,a,c,d,null)},
 bfB(a,b,c,d){return new A.J7(a,c,b,d,null)},
-ZK:function ZK(a,b,c,d){var _=this
+ZK:function ZK(a,b,c,d,e){var _=this
 _.c=a
 _.d=b
 _.e=c
-_.a=d},
+_.f=d
+_.a=e},
 J7:function J7(a,b,c,d,e){var _=this
 _.c=a
 _.d=b
@@ -144273,7 +144274,7 @@ s=o.a.as
 o=new A.ae(1/0,1/0,A.bmq(B.Q,new A.ae(s.a,s.b,new A.r_(o,p),p),B.l,B.b3),p)}else{o=q.f
 o=A.c9(o!=null?A.P(o,p,p,p,p,p,p,p,p):A.hs(p,p,p,p,p,0,p,4,p,new A.ei(B.ab,t.E)),p,p)}s=$.a2().ae6(5,5,B.h9)
 r=t.p
-return A.cH(p,p,new A.cl(B.ac,p,B.a2,B.j,A.a([o,A.aFQ(0,A.bkC(A.aU(p,p,B.l,A.G(153,0,0,0),p,p,p,p,p,p,p,p,p),s)),A.aFQ(0,A.bh(A.a([A.P("VYRA",p,p,p,p,A.aN(p,p,B.ab,p,p,p,p,p,p,p,p,48,p,p,B.al,p,p,!0,p,p,p,p,p,p,p,p),p,p,p),new A.ae(p,10,p,p),A.P("Explore The Race Within You",p,p,p,p,A.aN(p,p,B.Xe,p,p,p,p,p,p,p,p,24,B.a_v,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)],r),B.r,B.cI,B.m)),A.dx(50,A.c9(A.bfA(B.p,"Get Started",q.gb2C()),p,p),p,p,0,0,p,p)],r),p),p,p,p)}}
+return A.cH(p,p,new A.cl(B.ac,p,B.a2,B.j,A.a([o,A.aFQ(0,A.bkC(A.aU(p,p,B.l,A.G(153,0,0,0),p,p,p,p,p,p,p,p,p),s)),A.aFQ(0,A.bh(A.a([A.P("VYRA",p,p,p,p,A.aN(p,p,B.ab,p,p,p,p,p,p,p,p,48,p,p,B.al,p,p,!0,p,p,p,p,p,p,p,p),p,p,p),new A.ae(p,10,p,p),A.P("Explore The Race Within You",p,p,p,p,A.aN(p,p,B.Xe,p,p,p,p,p,p,p,p,24,B.a_v,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)],r),B.r,B.cI,B.m)),A.dx(50,A.c9(A.bfA(B.i,"Get Started",B.p,q.gb2C()),p,p),p,p,0,0,p,p)],r),p),p,p,p)}}
 A.b15.prototype={
 $1(a){var s=this.a,r=s.d
 r===$&&A.b()
@@ -144397,7 +144398,7 @@ p=n.x
 o=t.fo
 q.push(A.bB8(A.hB(m,new A.eA(4,A.cc(8),B.kw),m,new A.aj(20,18,20,18),m,m,m,m,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,"User Type",m,m,m,m,m,m,m,m,m,m,m,m,m),A.P("Select your user type",m,m,m,m,m,m,m,m),A.a6(new A.a9(A.a(["Athlete","Coach","Organizer"],t.s),new A.b4Y(),o),!0,o.j("aA.E")),new A.b4Z(n),p,t.N))
 q.push(new A.ae(m,s,m,m))
-q.push(A.bfA(B.qI,"Join VOLT",n.gb5g()))
+q.push(A.bfA(B.qI,"Join VOLT",B.i,n.gb5g()))
 q.push(new A.ae(m,s,m,m))
 return A.cH(l,m,A.qF(!0,A.hK(A.bh(A.a([new A.ae(m,s,m,m),A.c9(A.bh(q,B.r,B.n,B.m),m,m)],r),B.a8,B.n,B.m),m,B.q,new A.aj(k,0,k,0),m,B.v),B.a5,!0),m,m,m)}}
 A.b53.prototype={
@@ -148026,7 +148027,7 @@ i=A.a8(j).j("a9<1,w0>")
 i=A.r0(A.a6(new A.a9(j,new A.ast(g),i),!0,i.j("aA.E")),B.ah,B.c0,0,10)
 j=A.lq(B.aM,1)
 h=A.cc(10)
-return A.cH(e,f,A.qF(!0,new A.aH(new A.aj(d,0,d,0),A.hK(A.bh(A.a([new A.ae(f,s,f,f),A.c9(A.bh(A.a([new A.cl(B.PN,f,B.a2,B.j,r,f),new A.ae(f,o,f,f),A.avy(f,A.bh(A.a([n,new A.ae(f,o,f,f),m,new A.ae(f,o,f,f),new A.a2n("Bio","Enter a short bio",l,f),new A.ae(f,o,f,f),k,i,new A.ae(f,s,f,f),A.cv(f,A.aU(f,A.c9(A.ce(B.jp,B.aM,f,50),f,f),B.l,f,f,new A.c4(f,f,j,h,f,f,B.ae),f,c*0.2,f,f,f,f,1/0),B.q,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,new A.asu(a),f,f,f,f,f,f),new A.ae(f,o,f,f),A.P("Upload Certificate",f,f,f,f,A.aN(f,f,f,f,f,f,f,f,f,f,f,16,f,f,B.al,f,f,!0,f,f,f,f,f,f,f,f),B.bt,f,f),new A.ae(f,s,f,f),g.CQ(),new A.ae(f,o,f,f),A.bfA(B.ab,"Update Info",g.gb6J()),new A.ae(f,c*0.1,f,f)],p),B.a8,B.n,B.m),g.r)],p),B.r,B.n,B.m),f,f)],p),B.a8,B.n,B.m),f,B.q,f,f,B.v),f),B.a5,!0),f,f,f)}}
+return A.cH(e,f,A.qF(!0,new A.aH(new A.aj(d,0,d,0),A.hK(A.bh(A.a([new A.ae(f,s,f,f),A.c9(A.bh(A.a([new A.cl(B.PN,f,B.a2,B.j,r,f),new A.ae(f,o,f,f),A.avy(f,A.bh(A.a([n,new A.ae(f,o,f,f),m,new A.ae(f,o,f,f),new A.a2n("Bio","Enter a short bio",l,f),new A.ae(f,o,f,f),k,i,new A.ae(f,s,f,f),A.cv(f,A.aU(f,A.c9(A.ce(B.jp,B.aM,f,50),f,f),B.l,f,f,new A.c4(f,f,j,h,f,f,B.ae),f,c*0.2,f,f,f,f,1/0),B.q,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,new A.asu(a),f,f,f,f,f,f),new A.ae(f,o,f,f),A.P("Upload Certificate",f,f,f,f,A.aN(f,f,f,f,f,f,f,f,f,f,f,16,f,f,B.al,f,f,!0,f,f,f,f,f,f,f,f),B.bt,f,f),new A.ae(f,s,f,f),g.CQ(),new A.ae(f,o,f,f),A.bfA(B.ab,"Update Info",B.i,g.gb6J()),new A.ae(f,c*0.1,f,f)],p),B.a8,B.n,B.m),g.r)],p),B.r,B.n,B.m),f,f)],p),B.a8,B.n,B.m),f,B.q,f,f,B.v),f),B.a5,!0),f,f,f)}}
 A.asv.prototype={
 $0(){},
 $S:0}
@@ -149339,11 +149340,11 @@ A.aFS.prototype={
 $3(a,b,c){return A.ce(B.cl,null,null,null)},
 $S:130}
 A.ZK.prototype={
-G(a){var s,r,q=null,p=t.l,o=A.bo(a,q,p).w
-p=A.bo(a,q,p).w
-s=A.P(this.c,q,q,q,q,A.aN(q,q,B.i,q,q,q,q,q,q,q,q,20,B.a_u,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)
-r=A.aN(q,q,q,q,q,q,q,q,q,q,q,18,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)
-return new A.ae(o.a.a*0.9,p.a.b*0.07,A.h0(!1,s,q,q,B.ba,q,q,q,q,this.e,q,A.BZ(q,q,this.d,q,q,q,q,q,q,q,q,q,q,q,new A.cp(A.cc(8),B.w),q,q,q,r,q)),q)}}
+G(a){var s,r,q=this,p=null,o=t.l,n=A.bo(a,p,o).w
+o=A.bo(a,p,o).w
+s=A.P(q.c,p,p,p,p,A.aN(p,p,q.e,p,p,p,p,p,p,p,p,20,B.a_u,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)
+r=A.aN(p,p,p,p,p,p,p,p,p,p,p,18,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)
+return new A.ae(n.a.a*0.9,o.a.b*0.07,A.h0(!1,s,p,p,B.ba,p,p,p,p,q.f,p,A.BZ(p,p,q.d,p,p,p,p,p,p,p,p,p,p,p,new A.cp(A.cc(8),B.w),p,p,p,r,p)),p)}}
 A.J7.prototype={
 a4(){return new A.a9Y()}}
 A.a9Y.prototype={

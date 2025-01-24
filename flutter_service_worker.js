@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "2474626ac4c38e63c5bace0c42c28160",
-"assets/AssetManifest.bin.json": "da75235cc8230012994aa3979030c476",
-"assets/AssetManifest.json": "564b74dd6d80d252609332ed081a756c",
+const RESOURCES = {"assets/AssetManifest.bin": "1711b58b285d6159c8fd819b6f26b6e7",
+"assets/AssetManifest.bin.json": "077b17cad12652f257cb80ba2ff0134f",
+"assets/AssetManifest.json": "6a04eb9cc7b139880058edaf502692b0",
 "assets/assets/aiAnalysis.mp4": "eb8c7da21a2d7ed9425fff91ab341b30",
 "assets/assets/aiRunning.mp4": "a9c655d58252a15fab01bfba3fa4f72c",
 "assets/assets/icons/ai.png": "e110c4e9f7ff62714dc99b3c33dc3506",
@@ -37,6 +37,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "2474626ac4c38e63c5bace0c42c28160
 "assets/assets/images/sportsList/sprinting.png": "a4be4b67420f1fc959ed26179d3ec1b7",
 "assets/assets/images/sportsList/weightLift.png": "e136a59c6915330c8eb641b8df92b62f",
 "assets/assets/sprinter.png": "681fd6bae6a71a2a379f5a207a032611",
+"assets/assets/start-img.jpg": "c3f555b8b04618520c47da2927182ae9",
 "assets/assets/start.mp4": "e375afbf9a68e3a6fa324ded6bccce0b",
 "assets/assets/test.txt": "44a15cb3a40172222bb3935d8853986c",
 "assets/assets/vyra.png": "dab1a17f1b0502513dcfa1902285d62d",
@@ -60,14 +61,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "2474626ac4c38e63c5bace0c42c28160
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
-"flutter_bootstrap.js": "5bb048a1b2cd5d4d8fbb656ae9002bc9",
+"flutter_bootstrap.js": "4aff477c1d3b7aefba4079f4b8c1fc64",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "e6cf738fa764d926685cde84ba1b7087",
 "/": "e6cf738fa764d926685cde84ba1b7087",
-"main.dart.js": "0cf0ecb81b25848dbb6e82a9905cef90",
+"main.dart.js": "59e3daba359fa6efb2ca5f6b6cb658d9",
 "manifest.json": "a53f69f23ffc0d36226420f37d18e8d0",
 "sprinter.png": "681fd6bae6a71a2a379f5a207a032611",
 "version.json": "14e478dc273633353a35a672d59bcf99"};
